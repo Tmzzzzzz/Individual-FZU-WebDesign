@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>一个普通的FZU主页</title>
+  <link rel="stylesheet" href="style.css"> <!-- 此处引入外部CSS样式表，用以实现色彩交互样式 -->
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">FZU</a>
+    <nav class="nav-links">
+      <a href="#home">首页</a>
+      <a href="#about">基本信息</a>
+      <a href="#message-board">留言板</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-block">
+      <div class="hero-text">
+        <img class="hero-logo" src="assets/fzu-logo.jpg" alt="福州大学标识">
+        <p class="tag">Fuzhou University</p>
+        <h1>福州大学</h1>
+        <p>
+          这是一个以福州大学为主题的 HTML、CSS、JavaScript 学习作品。
+          由本人构思，并通过codex IDE调用GPT-5.5模型实现网页设计。
+        </p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#message-board">去留言</a>
+          <a class="office-button" href="https://jwch.fzu.edu.cn/" target="_blank" rel="noopener noreferrer">跳转教务处</a>
+          <a class="site-button" href="https://www.fzu.edu.cn/" target="_blank" rel="noopener noreferrer">跳转FZU官网</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/east-gate.jpg" alt="福州大学东门">
+        <div class="emblem-card">
+          <img src="assets/school-emblem.jpeg" alt="福州大学校徽">
+          <span>1958</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-block about-section">
+      <div class="section-heading">
+        <p class="tag">About FZU</p>
+        <h2>FZU 基本信息</h2>
+        <p>
+          学校设有7个校区，校舍建筑面积179.82万平方米，固定资产总值约81亿元，校训为“明德至诚，博学远志”。
+        </p>
+        <p>
+          现有在校生约5.9万人，教职工3500余人（含院士11人）。
+          设有27个学院（含1个独立学院和1个中外合作办学学院），和1家附属省立医院，
+          85个本科专业，一级学科博士点19个、5个博士专业学位授权类别、一级学科硕士点39个、25个硕士专业学位授权类别、12个博士后科研流动站。
+        </p>
+        <p>
+          学科实力强劲，化学学科再次入选“双一流”建设名单，化学、工程学、材料科学三个学科进入ESI全球排名前1‰,
+          共有13个学科进入ESI前1%。学校致力于建设具有若干世界一流学科的国际知名高水平大学，被誉为“福建省科学家的摇篮”。
+        </p>
+      </div>
+
+      <div class="info-grid">
+        <article class="info-card">
+          <span class="info-number">01</span>
+          <h3>学校概况</h3>
+          <p>
+            福州大学简称“福大”，位于福建省福州市。学校创建于 1958 年，
+            是国家“双一流”建设高校、国家“211 工程”重点建设大学，
+            也是福建省人民政府与教育部共建高校。
+          </p>
+        </article>
+        <article class="info-card">
+          <span class="info-number">02</span>
+          <h3>办学定位</h3>
+          <p>
+            学校长期坚持以工为主、理工结合的发展特色，现已形成理、工、
+            医、经、管、文、法、艺等多学科协调发展的办学格局。
+          </p>
+        </article>
+        <article class="info-card">
+          <span class="info-number">03</span>
+          <h3>人才培养</h3>
+          <p>
+            福州大学重视本科生与研究生培养，建设有国家级人才培养基地、
+            国家级实验教学示范中心、国家一流本科专业建设点等教学平台。
+          </p>
+        </article>
+        <article class="info-card">
+          <span class="info-number">04</span>
+          <h3>校园环境</h3>
+          <p>
+            校园配套有教学楼、图书馆、实验室、生活区等空间，整体环境开阔，
+            适合开展课堂学习、科研实践、社团活动和日常校园生活。
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block campus-gallery">
+      <article class="gallery-card gate-card">
+        <img src="assets/east-gate.jpg" alt="福州大学东门风景">
+        <div>
+          <p class="tag">Campus View</p>
+          <h2>旗山校区东门</h2>
+          <p>
+            旗山校区东门是福州大学的重要校园门户，校名石与远处山景相映成趣，
+            展现出开放、厚重而富有朝气的校园形象，也传递出福大扎根八闽、
+            面向未来的办学气质。
+          </p>
+        </div>
+      </article>
+
+      <article class="gallery-card map-card">
+        <div>
+          <p class="tag">Location</p>
+          <h2>主校区位置</h2>
+          <p>
+            旗山校区位于福州市大学城片区，周边交通道路、生活设施和高校资源较为集中。
+          </p>
+          <dl class="contact-list">
+            <div>
+              <dt>详细地址</dt>
+              <dd>福建省福州市闽侯县乌龙江北大道2号</dd>
+            </div>
+            <div>
+              <dt>邮编</dt>
+              <dd>350100</dd>
+            </div>
+            <div>
+              <dt>电话</dt>
+              <dd>0591 8789 3124</dd>
+            </div>
+          </dl>
+        </div>
+        <img src="assets/qishan-location.jpeg" alt="福州大学旗山校区位置图">
+      </article>
+    </section>
+
+    <section id="message-board" class="section-block message-layout">
+      <div class="message-panel">
+        <p class="tag">Message Board</p>
+        <h2>留言板</h2>
+        <p class="message-intro">
+          输入昵称和留言内容后，信息会保存到当前浏览器本地，刷新页面后仍然可以看到。
+        </p>
+        <form id="messageForm">
+          <label for="nickname">昵称</label>
+          <input id="nickname" name="nickname" type="text" placeholder="请输入昵称" required>
+
+          <label for="message">留言内容</label>
+          <textarea id="message" name="message" rows="5" placeholder="写下你想说的话" required></textarea>
+
+          <button type="submit">提交留言</button>
+        </form>
+      </div>
+
+      <div class="message-panel">
+        <div class="panel-title-row">
+          <div>
+            <p class="tag">Admin View</p>
+            <h2>管理员查看</h2>
+          </div>
+          <div class="message-actions">
+            <span id="messageCount" class="message-count">0 条</span>
+            <button id="clearMessages" class="danger-button" type="button">清空</button>
+          </div>
+        </div>
+        <ul id="messageList" class="message-list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>福州大学25级*** 版权所有</p>
+    <p>
+      外部链接：
+      <a href="https://jwch.fzu.edu.cn/" target="_blank" rel="noopener noreferrer">福大教务处</a>
+      ｜
+      <a href="https://www.fzu.edu.cn/" target="_blank" rel="noopener noreferrer">福州大学官网</a>
+      ｜ 联系方式：QQ 1157667655
+    </p>
+  </footer>
+    <!-- 此处target="_blank"用于在新标签页中打开链接，rel="noopener noreferrer"用于提高安全性 -->
+
+  <script src="script.js"></script>   <!--  此处引入JavaScript文件，用以实现留言板交互功能 -->
+</body>
+</html>
